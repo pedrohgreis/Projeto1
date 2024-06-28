@@ -1,0 +1,43 @@
+@import 'variables';
+
+body{
+    background-color: $primary-color;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    main{
+        width: 250px;
+        height: 290px;
+        background-color: $second-color;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 2px -13px 32px -1px rgba(215, 92, 55, 0.91);
+
+
+        div{
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%);
+
+            p{
+                background-color: #fff;
+                padding: 8px 20px;
+                text-align: center;
+                border-radius: 8px;
+            }
+
+            .button{
+                width: 40px;
+                height: 26px;
+            }
+
+        }
+        
+    }
+
+
+}
