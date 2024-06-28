@@ -1,11 +1,14 @@
 @import 'variables';
 
-body{
+
+
+html,body{
     background-color: $primary-color;
     height: 97vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 
     main{
@@ -14,7 +17,7 @@ body{
         background-color: $second-color;
         position: relative;
         border-radius: 10px;
-        box-shadow: 2px -13px 32px -1px rgba(215, 92, 55, 0.91);
+        box-shadow: 2px -13px 32px -1px rgba(219, 101, 65, 0.791);
 
 
         div{
@@ -33,7 +36,10 @@ body{
             .button{
                 width: 40px;
                 height: 26px;
+                border: none;
             }
+
+            
 
         }
         

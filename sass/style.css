@@ -1,31 +1,33 @@
-body {
+html, body {
   background-color: #FC8763;
   height: 97vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-body main {
+html main, body main {
   width: 250px;
   height: 290px;
   background-color: #EAE4D3;
   position: relative;
   border-radius: 10px;
-  box-shadow: 2px -13px 32px -1px rgba(215, 92, 55, 0.91);
+  box-shadow: 2px -13px 32px -1px rgba(219, 101, 65, 0.791);
 }
-body main div {
+html main div, body main div {
   position: absolute;
   top: 20%;
   left: 50%;
   transform: translate(-50%);
 }
-body main div p {
+html main div p, body main div p {
   background-color: #fff;
   padding: 8px 20px;
   text-align: center;
   border-radius: 8px;
 }
-body main div .button {
+html main div .button, body main div .button {
   width: 40px;
   height: 26px;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
