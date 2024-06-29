@@ -9,6 +9,7 @@ html,body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 
 
     main{
@@ -58,12 +59,21 @@ html,body{
             #point{
                 margin-left: calc(100% + 5px);
             }
-            
-
-            
 
         }
         
+    }
+
+    footer{
+        background-color: rgb(253, 104, 104);
+        width: 100vw;
+        position: absolute;
+        bottom: -29.7px;
+
+        p{
+            color: white;
+            text-align: center;
+        }
     }
 
 

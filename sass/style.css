@@ -5,6 +5,7 @@ html, body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 html main, body main {
   width: 250px;
@@ -45,4 +46,14 @@ html main div #zero, body main div #zero {
 }
 html main div #point, body main div #point {
   margin-left: calc(100% + 5px);
+}
+html footer, body footer {
+  background-color: rgb(253, 104, 104);
+  width: 100vw;
+  position: absolute;
+  bottom: -29.7px;
+}
+html footer p, body footer p {
+  color: white;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
