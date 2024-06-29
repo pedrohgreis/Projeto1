@@ -48,7 +48,7 @@ html main div #point, body main div #point {
   margin-left: calc(100% + 5px);
 }
 html footer, body footer {
-  background-color: rgb(68, 68, 68);
+  background-color: #2C2C2C;
   width: 100vw;
   position: absolute;
   bottom: -29.7px;
