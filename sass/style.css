@@ -35,8 +35,8 @@ html main div .button, body main div .button {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 html main div .button:hover, body main div .button:hover {
-  background-color: #9ce3a0; /* Nova cor de fundo ao passar o mouse */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+  background-color: #9ce3a0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 html main div #equal, body main div #equal {
   height: 60px;
@@ -56,4 +56,43 @@ html footer, body footer {
 html footer p, body footer p {
   color: white;
   text-align: center;
+}
+
+.site-header {
+  background-color: #2C2C2C;
+  box-shadow: 0;
+  color: white;
+  padding: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.site-header .header-content {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header .header-content nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.site-header .header-content nav ul li {
+  margin-left: 20px;
+}
+.site-header .header-content nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 10px;
+}
+.site-header .header-content nav ul li a:hover {
+  color: rgba(219, 101, 65, 0.791);
 }/*# sourceMappingURL=style.css.map */

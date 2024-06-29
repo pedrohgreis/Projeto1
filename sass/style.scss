@@ -43,8 +43,8 @@ html,body{
             }
 
             .button:hover {
-                background-color: #9ce3a0; /* Nova cor de fundo ao passar o mouse */
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+                background-color: #9ce3a0;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             }
 
             #equal {
@@ -77,4 +77,49 @@ html,body{
     }
 
 
+}
+.site-header {
+    background-color: #2C2C2C;
+    box-shadow: 0;
+    color: white;
+    padding: 25px ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    .header-content {
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        nav {
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+
+                li {
+                    margin-left: $spacing-unit;
+
+                    a {
+                        color: $text-color;
+                        text-decoration: none;
+                        font-weight: bold;
+                        white-space: nowrap;
+                        padding: 10px;
+
+                        &:hover {
+                            color: rgba(219, 101, 65, 0.791);
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
