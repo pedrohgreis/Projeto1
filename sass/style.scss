@@ -37,7 +37,28 @@ html,body{
                 width: 40px;
                 height: 26px;
                 border: none;
+                border-radius: 2px;
+                transition: background-color 0.3s ease, box-shadow 0.3s ease;
             }
+
+            .button:hover {
+                background-color: #9ce3a0; /* Nova cor de fundo ao passar o mouse */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+            }
+
+            #equal {
+                height: 60px;
+            }
+
+            
+            #zero{
+                width: 85px;
+            }
+
+            #point{
+                margin-left: calc(100% + 5px);
+            }
+            
 
             
 

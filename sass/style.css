@@ -30,4 +30,19 @@ html main div .button, body main div .button {
   width: 40px;
   height: 26px;
   border: none;
+  border-radius: 2px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+html main div .button:hover, body main div .button:hover {
+  background-color: #9ce3a0; /* Nova cor de fundo ao passar o mouse */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+}
+html main div #equal, body main div #equal {
+  height: 60px;
+}
+html main div #zero, body main div #zero {
+  width: 85px;
+}
+html main div #point, body main div #point {
+  margin-left: calc(100% + 5px);
 }/*# sourceMappingURL=style.css.map */
